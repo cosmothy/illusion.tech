@@ -6,11 +6,15 @@
             div {
                 width: 100%;
             }
+            p {
+                cursor: default;
+            }
             p a {
-                padding: 10px 20px 10px 20px;
+                margin: 10px 20px 10px 20px;
                 font-family: 'Source Code Pro', monospace;
                 color: #FFF;
                 text-decoration: underline;
+                cursor: pointer;
             }
             p a:hover {
                 text-decoration: none;
@@ -32,10 +36,20 @@
                 transform: translateY(-50%);
             }
         </style>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5NS4SLN0E"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-J5NS4SLN0E');
+        </script>
         <title>illusion.tech</title>
     </head>
     <body style="background: #666; color: #FFF; position: relative;">
         <div class="content">
+            <p>illusion</p>
             <p style="font-size: 80px; font-family: 'Rubik Dirt', cursive;">Explore XR with visionary!</p>
             <p style="font-size: 30px;"><a href="mailto:join@illusion.tech">Join us</a> | <a href="mailto:fund@illusion.tech">Fund us</a></p>
         </div>
